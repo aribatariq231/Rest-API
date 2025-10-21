@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rest API </h1>
+    <h2>Know Your City Weather</h2>
+
+    <form action="" onsubmit="getweather(); return false">
+        <div>
+            <input type="text" id="cityname" name="cityname" placeholder="City name">
+            <button>Get</button>
+        </div>
+        <div id="result"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
