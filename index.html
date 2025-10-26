@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      min-height: 100vh;
+    }
+
+    /* Heading */
+    h1 {
+      color: #d66969;
+      background-color: #eaecec;
+      font-size: 40px;
+      font-weight: 400;
+      text-align: center;
+      text-decoration: underline;
+      font-style: italic;
+      margin-top: 40px;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 10px;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* Form styling */
+    form {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+     input {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 250px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 8px 16px;
+      border: none;
+      background-color: #d66969;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #result {
+      margin-top: 30px;
+      font-size: 18px;
+      color: #333;
+      text-align: center;
+    }
+    </style>
 </head>
 <body>
-    <h1>Rest API </h1>
+    <h1>Weather App </h1>
     <h2>Know Your City Weather</h2>
 
     <form action="" onsubmit="getweather(); return false">
